@@ -299,6 +299,8 @@ body {
 }
 
 .bar {
+position: absolute;
+top: 0px;
   width: 3px;
   background-color: white;
   /* height: 50px; */
@@ -306,14 +308,20 @@ body {
   border-bottom-left-radius: 0;
   border-bottom-left-radius: 0;
   width: 8px;
+
 }
 
 .total {
+    position: relative;
   width: 3px;
   background-color: rgba(64, 72, 154, 1);
   height: 100px;
   border-radius: 6px;
   width: 8px;
+}
+
+.total p{
+    margin-top: 44px;
 }
 
 .values {
